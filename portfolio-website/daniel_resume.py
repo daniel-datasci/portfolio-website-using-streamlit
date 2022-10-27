@@ -5,17 +5,21 @@ import streamlit as st
 # Header 
 st.write('''
 # Daniel Ifediba
-##### *Resume* 
+##### Lagos, Nigeria
 ''')
+st.write('##')
 
-
-st.markdown('## Summary', unsafe_allow_html=True)
+st.markdown('## Objective/Summary', unsafe_allow_html=True)
 st.info('''
-- Data Scientist/Data Analyst.
-- Strong verbal and written communication skills.
-- Experienced storyteller using data and visualization tools.
-- Strong Knowledge of applying Machine Learning in real life scenarios and solving real time problems.
--  Passionate about data and helping others kick start their data careers.
+Data Scientist with a background in accounting, skilled in Data Analysis, Data Visualization, SQL, Python Programming, Microsoft Power BI, building Machine Learning models.
+
+Experienced storyteller using data and visualization tools with a Strong Knowledge of applying Machine Learning in real life scenarios and solving real time problems.
+
+Achievements include creating regression models to predict House Prices with 10% more accuracy than historical average.
+My ability to communicate, logically analyze data from an end-user point of view and also apply empathy towards each project has sprouted success with my teammates.
+
+Passionate about data and helping others kick start their data careers.
+
 ''')
 
 #####################
@@ -113,14 +117,14 @@ st.markdown('''
 - Successfully organized a team of 6 individuals to build a model that classifies twitter data with the use of Python and Machine Learning Algorithms.
 - Applied statistical and machine learning techniques to solve diverse business problems.
 ''')
-
+st.write('----------------------------------------------------------------------------------------')
 txt('**Founder**, CID Academy, Nigeria',
 '2022')
 st.markdown('''
 - Helping young data professionals kick start their data careers by providing them foundational knowledge on SQL, PYTHON, POWERBI and MACHINE LEARNING
 - Giving young data heroes on-the-go skills in communicating insights from visualized data.
 ''')
-
+st.write('----------------------------------------------------------------------------------------')
 txt('**Customer Relationship Officer**, Jumia Group, Nigeria',
 'July 2019- 2021')
 st.markdown('''
@@ -167,4 +171,5 @@ st.markdown('''
 txt2('LinkedIn', '[Connect With Me](https://www.linkedin.com/in/daniel-ifediba-a681a4226/)')
 txt2('Twitter', '[My Twitter Universe](https://twitter.com/Daniel_Ifediba)')
 txt2('GitHub', '[Dive Into To My Code Archive](https://github.com/daniel-datasci/)')
+txt2('Portfolio Website', '[View My Projects](https://daniel-ifediba-portfolio.carrd.co)')
 txt2('Email Address', 'danifedibah@gmail.com')
