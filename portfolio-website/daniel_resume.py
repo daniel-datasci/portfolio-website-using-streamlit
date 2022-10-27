@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 
 
 #####################
@@ -9,11 +8,6 @@ st.write('''
 ##### *Resume* 
 ''')
 
-image = Image.open('my_image.jpg')
-st.image(image, width=150)
-image1 = Image.open('sales.jpg')
-image2 = Image.open('house.jpg')
-image3 = Image.open('retire.jpg')
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
@@ -140,19 +134,16 @@ st.markdown('''
 ## Projects
 ''')
 txt4('Retirement Income Predictor', 'Affiliated With ExploreAI', '[Project Source Code](https://github.com/daniel-datasci/Retirement-Income-Predictor)')
-st.image(image3)
 st.markdown('''
 Most people have a certain level of uncertainty nearing retirement age, as to if they will be able to reach their retirement goals. This uncertainty comes from factors such as; savings, health, number of dependents and so on. This project aims to reduce this levels of uncertainty and give people a higher level of confidence towards retirement by helping them know what income they should amass every month to reach this goal. The type of investment choice to be chosen is also adviced.
 ''')
 st.write('---------------------------------------------------------------------------------------------------------------------------------------------')
 txt4('House Prices Prediction', 'Outsourced Project', '[Project Source Code](https://github.com/daniel-datasci/House-Prices-Prediction-1)')
-st.image(image2)
 st.markdown('''
 Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence. This project aims to give people looking to seel or buy a house, the important factors that influece the hike or decline in price of houses.
 ''')
 st.write('---------------------------------------------------------------------------------------------------------------------------------------------')
 txt4('Sales Revenue Insights', 'Outsourced Project', '[Project Source Code](https://github.com/daniel-datasci/Sales-Insights)')
-st.image(image1)
 st.markdown('''
 There are many times companies or simple business run into the difficulty of choosing which products they should focus on when they deal on different categories of products. This project aimed to give the said company clarity on how these various pproduct categories perform in sales over a period of 4 years. There is also a proffessional recommendation on which product should more resources be channeled to and which to be discarded.
 ''')
